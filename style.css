@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Montserrat&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 55px;
+    z-index: 1000;
+}
+.barra2{
+    background-color: #000000;
+    max-width: 100%;
+    height: 54px;
+}
+.logo img{
+    margin-top: 7px;
+    margin-left: 27px;
+    height: 40px;
+}
+.barra a{
+    text-decoration: none;
+    color: #000000;
+}
+.barra li{
+    list-style-type: none;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.botones li {
+    width: 160px; /* Ancho del boton */
+    height: 33px; /* Altura del boton */
+    background-color: #fcc574; /* Color de fondo del boton */
+    border: 3px solid #FFBD59; /* Borde del boton */
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+ul:hover {
+    color: #000000;
+}
+.botones li:hover {
+    background-color: #FFBD59;
+    border-color: #ffba52; 
+    color: #000000;
+}
+.botones:hover{
+    color: #000000 !important;
+}
+.dropdown-menu {
+    background-color: #FFBD59 !important;
+    width: fit-content;
+    color: #000000 !important;
+}
+.botones {
+    display: flex;
+    padding-top: 5px;
+    margin-right: 42px;
+    font-size: 15px;
+    font-family: 'Lexend Deca';
+    text-transform: uppercase;
+}
+.botones a:hover,.botones a:active, 
+.botones a:focus {
+  color: #000000 !important;
+}
+.dropdown-menu a:active,
+.dropdown-menu a:focus {
+    background-color: #ffc123;
+}
+.botones-menu .dropdown-menu {
+    background-color: #FFBD59 !important;
+    width: 300px;
+    color: #000000 !important;
+}
+.dropdown-menu li{
+    width: 300px;
+}
+.botones-menu .dropdown-menu .dropdown-item a {
+    width: 100%;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+
+p{
+    display: block;
+    justify-content: center; /* Alinea horizontalmente */
+    align-items: center; /* Alinea verticalmente */
+    color: #000000;
+    height: 100%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 11%;
+    padding-right: 11%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    background-image: url('./imagenes/partituras.jpg');
+    background-size: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;    
+}
+
+.videorecomendacion {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 250px;
+}
+
+.col-md-3 {
+    margin: 0 30px;
+    padding-bottom: 50px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+
+.videorecomendacion .col-md-3:nth-child(1) {
+    background-color: #000000;
+}
+
+.videorecomendacion .col-md-3:nth-child(2) {
+    background-color: #000000;
+}
+
+.videorecomendacion .col-md-3:nth-child(3) {
+    background-color: #000000;
+}
+.video-container iframe {
+    width: 100%;
+    height: 202px;
+    align-items: center;
+}
+.seccionluthier p{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    height: 100%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 13%;
+    padding-right: 13%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.tituloart2 h2,.tituloart3 h2,.tituloluthier h2,.tituloart4 h2,.titulodonar h2{
+    display: flex;
+    justify-content: center; /* Alinea horizontalmente */
+    align-items: center; /* Alinea verticalmente */
+    color: #000000;
+    height: 100%;
+    padding-top: 28px;
+    padding-bottom: 26px;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+.seccionart1{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: #ececec;
+    border: 3px solid #dbdbdb;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seccionluthier{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    background-color: #ececec;
+    border: 3px solid #dbdbdb;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.articulo2,.articulo3,.articulo4{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: #ececec;
+    border: 3px solid #dbdbdb;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.secciondonar{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: #5CE1E6;
+    border-style: solid;
+    border-width: 5px;
+    border-image: linear-gradient(to right,#E64862,#F1BF73,#F1BF73,#ED7260,#ED7260,#F1BF73,#F1BF73,#E64862,#E64862,#F1BF73,#ED7260) 1;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seccionluthier iframe{
+    margin-bottom: 30px;
+}
+.Bannerluthier img{
+    max-width: 750px;
+    height: auto;
+}
+.BannerLaPandemica {
+    display: flex;
+    justify-content: center;
+}
+.BannerLaPandemica img {
+    max-width: 50%;
+    height: auto;
+    padding: 20px;
+}
+.barradeanuncio {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.anuncio {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+.anuncio ul {
+    padding: 0;
+    margin: 0;
+}
+
+.anuncio ul li {
+list-style-type: none;
+}
+
+.anuncio ul li img {
+width: 100%;
+height: auto;
+}
+.cerrar {
+    color: rgb(75, 75, 75);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 16px;
+}
+
+.cerrar:hover,
+.cerrar:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fotospandemica {
+    display: flex;
+    justify-content: center;
+    background-image: url('./imagenes/Diarios.jpg');
+    background-size: 78%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fotospandemica img {
+    margin: 27px;
+    max-width: 26%; 
+    height: auto;
+    border-radius: 3px;
+}
+.articulo2 iframe{
+    padding-bottom: 20px;
+}
+.tablaart2{
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Yesterday a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Yesterday img{
+    width: 30%;
+}
+.secciondonar img{
+    padding: 25px;
+    width: 350px;
+}
+.secciondonar iframe{
+    padding: 30px;
+}
+.voluntariado img{
+    width: 100%;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 0;
+}
+.voluntariado p{
+    padding-top: 0px;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2px !important;
+
+}
+.secciondonar p{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    height: 100%;
+    padding-bottom: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+.secciondonarp2{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    height: 100%;
+    padding-bottom: 5px;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+.contactodonar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img {
+    height: 70px;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 20%;
+}
+
+.nosotros p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
